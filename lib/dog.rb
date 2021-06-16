@@ -8,9 +8,7 @@ class Dog
   
   def initialize(name)
      @name = name
-    if @@all.length >= 1 
-      puts save
-    end
+    save
   end
 
   def self.all
